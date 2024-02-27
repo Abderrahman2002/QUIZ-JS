@@ -1,0 +1,25 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  
+       
+    </head>
+    <body>
+    <div class="quiz-container">
+        <h1>Bienvenue au Quiz Génial</h1>
+        <p>Merci de participer à notre quiz. Répondez aux questions suivantes :</p>
+        <button class="btn btn-start" onclick="startQuiz()">Commencer le Quiz</button>
+        
+        <div id="question-container" style="display: none;"></div>
+        <div id="answer-buttons" class="btn-grid" style="display: none;"></div>
+        <p id="score" style="display: none;">Score: <span id="score-value">0</span></p>
+        <p id="timer" style="display: none;">Temps écoulé: <span id="timer-value">0</span> secondes</p>
+        <p id="quiz-end-message" style="display: none;"></p>
+    </div>
+    <script src="script.js"></script>   
+    </body>
+    </html>
